@@ -258,14 +258,14 @@ ul,li{
     overflow: hidden;
     height: 320px;
     width: 206px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 .bb ul{
     list-style: none;
     font-size: 12px;
 }
 .bb li{
-    padding: 7px 0 7px 15px;
+    padding: 8px 0 7px 15px;
     position: relative;
     z-index: 10;
 }
