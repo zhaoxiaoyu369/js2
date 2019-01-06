@@ -147,5 +147,16 @@ window.onload=function(){
         }
     }, 5);
 
+    //悬挂
+    var g1=document.getElementById('g1');
+    var g2=document.getElementById('g2');
+    g1.onmouseover=function(){
+        g1.style.position="relative";
+        g1.style.right=100+"px";
+    }
+    g1.onmouseout=function(){
+        g1.style.position="fixed";
+        g1.style.right=-126+"px";
+        g2.style.marginTop=74+"px";
+    }
 }
-

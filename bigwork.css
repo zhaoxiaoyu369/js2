@@ -258,14 +258,14 @@ ul,li{
     overflow: hidden;
     height: 320px;
     width: 206px;
-    /* font-weight: bold; */
+    font-weight: bold;
 }
 .bb ul{
     list-style: none;
-    font-size: 12px;
+    font-size: 11px;
 }
 .bb li{
-    padding: 8px 0 7px 15px;
+    padding: 7px 0 7px 20px;
     position: relative;
     z-index: 10;
 }
@@ -414,4 +414,13 @@ ul,li{
     margin-top: 8px;
     font-size: 12px;
     color:#9e9c94; 
+}
+#rightFloat{
+    top: 110px;
+    width: 200px;
+    position: fixed;
+    right: -154px;
+}
+.close{
+    right: -154px; 
 }
